@@ -36,7 +36,7 @@ class MapGraphicsView(QtWidgets.QGraphicsView):
         self.setMouseTracking(True)  # Enable mouse tracking
 
         # Set the path to your map image
-        map_image_path = 'E:/AoC_Sim/Assets/Map_of_Verra_cleanup_notext_nowater.png'
+        map_image_path = 'E:/AoCSim/Assets/Map_of_Verra_cleanup_notext_nowater.png'
         
         # Load the map image
         self.map_pixmap = QtGui.QPixmap(map_image_path)
@@ -120,7 +120,7 @@ class SimulationThread(QtCore.QThread):
 class SimulationApp(QtWidgets.QMainWindow):
     def __init__(self):
         super().__init__()
-        self.db_path = 'E:\\AoC_Sim\\SQLite_Queries\\nodes.db'
+        self.db_path = 'E:\\AoCSim\\SQLite_Queries\\nodes.db'
         self.control = SimulationControl()
         self.simulationThread = SimulationThread(self.control, self.db_path)
         self.isPaused = False
