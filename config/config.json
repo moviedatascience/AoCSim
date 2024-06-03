@@ -1,0 +1,7 @@
+{
+  "map_image_path": "assets/Map_of_Verra_cleanup_notext_nowater.png",
+  "close_icon_path": "assets/closeIcon.png",
+  "hamburger_icon_path": "assets/hamburgerIcon.png",
+  "db_path": "database/nodes.db",
+  "original_boundaries_table": "original_regions"
+}
