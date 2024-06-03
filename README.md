@@ -34,7 +34,7 @@ Simulation module for upcoming MMORPG Ashes of Creation
 - ~~Create "start simulation" GUI button~~
 - ~~Create "pause simulation" GUI button~~
 - ~~Highlight node when cursor hovers within node boundaries (so much harder than I thought it would be)~~
-- ~~-Limit node progression based on surrounding nodes~~
+- ~~Limit node progression based on surrounding nodes~~
 - ~~Configure paths to pull from a config file instead of the script ~~
 - ~~General settings put into collapsable left side panel ~~
 - ~~Allow GUI user to move node boundaries ~~
